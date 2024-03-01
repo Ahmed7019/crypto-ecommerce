@@ -544,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.font-poppins {
+  font-family: Poppins, san-serif;
+}
+
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
