@@ -557,3 +557,14 @@ video {
   --tw-text-opacity: 1;
   color: rgb(147 197 253 / var(--tw-text-opacity));
 }
+
+@layer {
+  :root {
+    --bgPrimary: #172933;
+    --primary: #21384a;
+  }
+
+  .bgPrimary {
+    background-color: var(--bgPrimary);
+  }
+}
