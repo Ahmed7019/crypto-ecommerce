@@ -7,11 +7,19 @@
 @layer {
   :root {
     --bgPrimary: #172933;
-    --primary: #21384a;
-    --lightBlue: #2696f5;
+    --primary: #304F69;
+    --dark: #21384A;
   }
 
   .bgPrimary {
     background-color: var(--bgPrimary);
+  }
+
+  .bg-darkblue {
+    background-color: var(--dark);
+  }
+
+  .primary {
+    color: var(--primary);
   }
 }
