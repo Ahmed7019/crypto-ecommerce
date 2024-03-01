@@ -553,6 +553,10 @@ video {
   line-height: 1;
 }
 
+.capitalize {
+  text-transform: capitalize;
+}
+
 .text-blue-300 {
   --tw-text-opacity: 1;
   color: rgb(147 197 253 / var(--tw-text-opacity));
