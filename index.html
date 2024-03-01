@@ -13,16 +13,26 @@
 <body class="bgPrimary font-poppins">
 
     <header class="m-6">
-        <nav class="flex justify-between text-white items-center">
+        <nav class="flex justify-between text-white items-center relative">
             <a href="#" class="text-2xl font-bold">CryptoTrade</a>
-            <ul class="flex ">
-                <li class="px-1 hidden"><a href="#">Home</a></li>
-                <li class="px-1 hidden"><a href="#">Features</a></li>
-                <li class="px-1 hidden"><a href="#">Products</a></li>
-                <li class="px-1 hidden"><a href="#">Pricing</a></li>
-                <li class="px-1 hidden"><a href="#">Blog</a></li>
-                <button class="px-2 py-2 mx-1 bg-blue-400 rounded-xl text-sm "><a href="#">Sign in</a></button>
-                <button class="px-2 py-2 mx-1 bg-slate-700 rounded-xl text-sm "><a href="#">Get Started</a></button>
+            <button id="open-btn">
+                <i class="fa-solid fa-bars text-3xl"></i>
+            </button>
+            <ul class="bg-slate-300 text-black p-2 absolute right-0 top-0 z-10 w-[60%] hidden">
+                <li class="text-center relative">
+                    <button class="absolute right-0 top-0" id="close-btn">
+                        <i class="fa-solid fa-xmark text-lg"></i>
+                    </button>
+                </li>
+                <li class="px-1 py-2 text-center"><a href="#">Home</a></li>
+                <li class="px-1 py-2 text-center"><a href="#">Features</a></li>
+                <li class="px-1 py-2 text-center"><a href="#">Products</a></li>
+                <li class="px-1 py-2 text-center"><a href="#">Pricing</a></li>
+                <li class="px-1 py-2 text-center"><a href="#">Blog</a></li>
+                <button class="px-2 py-2 mx-1 bg-blue-400 rounded-xl text-sm text-white"><a href="#">Sign
+                        in</a></button>
+                <button class="px-2 py-2 mx-1 bg-slate-700 rounded-xl text-sm text-white"><a href="#">Get
+                        Started</a></button>
             </ul>
         </nav>
         <hr class="my-2">
