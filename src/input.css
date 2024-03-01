@@ -7,8 +7,8 @@
 @layer {
   :root {
     --bgPrimary: #172933;
-    --primary: #304F69;
-    --dark: #21384A;
+    --primary: #304f69;
+    --dark: #21384a;
   }
 
   .bgPrimary {
@@ -21,5 +21,32 @@
 
   .primary {
     color: var(--primary);
+  }
+
+  #menu {
+    transition: ease-in-out;
+    -webkit-transition: ease-in-out;
+    -moz-transition: ease-in-out;
+    -ms-transition: ease-in-out;
+    -o-transition: ease-in-out;
+    opacity: 0;
+    transform: translateX(40rem);
+    -webkit-transform: translateX(40rem);
+    -moz-transform: translateX(40rem);
+    -ms-transform: translateX(40rem);
+    -o-transform: translateX(40rem);
+  }
+
+  @keyframes trasopacity {
+    0% {
+    }
+    100% {
+      transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -ms-transform: translateX(0);
+      -o-transform: translateX(0);
+      opacity: 1;
+    }
   }
 }

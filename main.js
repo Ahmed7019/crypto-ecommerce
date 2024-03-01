@@ -6,10 +6,12 @@ let menuBtn = document.getElementById("open-btn"),
 
 menuBtn.addEventListener("click", () => {
   menu.style.setProperty("display", "block");
+  menu.style.setProperty("animation", "trasopacity .5s forwards");
 });
 
 closeBtn.addEventListener("click", () => {
   menu.style.setProperty("display", "none");
+  menu.style.setProperty("transition", "all 1s");
 });
 
 menuBtn.addEventListener("blur", () => {
