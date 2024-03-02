@@ -12,14 +12,15 @@
 
 <body class="bgPrimary font-poppins">
 
-    <header class="m-6 overflow-hidden">
+    <header class="m-6 overflow-hidden md:m-12">
         <nav class="flex justify-between text-white items-center relative">
             <a href="#" class="text-2xl font-bold">CryptoTrade</a>
             <button id="open-btn" class="md:hidden">
                 <i class="fa-solid fa-bars text-3xl"></i>
             </button>
-            <ul class="bg-slate-200 text-black p-2 absolute right-0 top-0 z-10 w-[60%] md:relative" id="menu">
-                <li class="text-center relative">
+            <ul class="bg-slate-200 text-black p-2 absolute right-0 top-0 z-10 w-[60%] md:relative md:flex md:opacity-100 md:translate-x-0 md:bg-transparent md:text-white md:justify-between md:w-fit"
+                id="menu">
+                <li class="text-center relative md:hidden">
                     <button class="relative" id="close-btn">
                         <i class="fa-solid fa-xmark text-lg"></i>
                     </button>
@@ -37,9 +38,9 @@
         </nav>
         <hr class="my-2">
 
-        <section>
-            <div class="relative rounded-lg overflow-hidden">
-                <img src="image/pexels-alesia-kozik-6770610 (1).jpg" alt="">
+        <section class="md:w-full md:relative md:flex md:justify-center md:items-center ">
+            <div class="relative rounded-lg overflow-hidden mx-auto">
+                <img src="image/pexels-alesia-kozik-6770610 (1).jpg" alt="crypto trade" class="md:w-[700px] ">
                 <div class="text-white absolute bottom-2 left-2 ">
                     <h1 class="text-2xl font-bold">CryptoTradePro: Empowering Your Cryptocurrency Trading Success</h1>
                     <p class="text-xs text-neutral-200">Your one-stop destination for high-quality trading products
@@ -56,110 +57,114 @@
         </section>
     </header>
 
-    <main class="m-6">
-        <section> <!-- Pro Features -->
-            <div class="my-4">
-                <h2 class="text-white font-bold text-2xl">Pro Features</h2>
-                <p class="text-sm text-neutral-300">CryptoTradePro comes with a suite of advanced trading tools designed
-                    for professional traders. Access
-                    all
-                    pro features with a monthly subcription.</p>
-            </div>
+    <main class="m-6 md:m-12 ">
+        <section class="md:flex md:justify-center md:flex-col md:items-center"> <!-- Pro Features -->
+            <div class="md:flex md:flex-col md:items-center md:justify-evenly">
 
-            <div class="my-4">
-                <div>
-                    <!-- Features cards  -->
-                    <div class="my-3 bg-slate-900 rounded-lg overflow-hidden">
-                        <img src="image/m-ZzOa5G8hSPI-unsplash.jpg" alt="trading indicators"
-                            class="w-full object-cover rounded-lg overflow-hidden">
-                        <div class="my-2 p-2">
-                            <h3 class="text-white text-lg">Advanced trading indicators</h3>
-                            <p class="text-sm font-normal text-slate-300"> Gain access to a wide range of sophisticated
-                                trading indicators that provide deep
-                                insights
-                                into market trends, volatility, and potential price movements.</p>
+                <div class="my-4">
+                    <h2 class="text-white font-bold text-2xl">Pro Features</h2>
+                    <p class="text-sm text-neutral-300">CryptoTradePro comes with a suite of advanced trading tools
+                        designed
+                        for professional traders. Access
+                        all
+                        pro features with a monthly subcription.</p>
+                </div>
+
+                <div class="my-4">
+                    <div class="md:flex md:justify-center md:items-center">
+                        <!-- Features cards  -->
+                        <div class="my-3 bg-slate-900 rounded-lg overflow-hidden md:w-[400px] md:mx-1">
+                            <img src="image/m-ZzOa5G8hSPI-unsplash.jpg" alt="trading indicators"
+                                class="w-full object-cover rounded-lg overflow-hidden ">
+                            <div class="my-2 p-2">
+                                <h3 class="text-white text-lg">Advanced trading indicators</h3>
+                                <p class="text-sm font-normal text-slate-300"> Gain access to a wide range of
+                                    sophisticated
+                                    trading indicators that provide deep
+                                    insights
+                                    into market trends, volatility, and potential price movements.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="my-3 bg-slate-900 rounded-lg overflow-hidden">
-                        <img src="image/maxim-hopman-fiXLQXAhCfk-unsplash.jpg" alt="Trading signals"
-                            class="w-full object-cover rounded-lg overflow-hidden">
-                        <div class="p-2">
-                            <h3 class="text-white text-lg my-2">High Quality Signals</h3>
-                            <p class="text-sm font-normal text-slate-300">Receive accurate and reliable signals that
-                                help
-                                you identify profitable entry and exit points
-                                in the cryptocurrency market.</p>
+                        <div class="my-3 bg-slate-900 rounded-lg overflow-hidden md:w-[400px] md:mx-1">
+                            <img src="image/maxim-hopman-fiXLQXAhCfk-unsplash.jpg" alt="Trading signals"
+                                class="w-full object-cover rounded-lg overflow-hidden ">
+                            <div class="p-2">
+                                <h3 class="text-white text-lg my-2">High Quality Signals</h3>
+                                <p class="text-sm font-normal text-slate-300">Receive accurate and reliable signals that
+                                    help
+                                    you identify profitable entry and exit points
+                                    in the cryptocurrency market.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="my-3 bg-slate-900 rounded-lg overflow-hidden">
-                        <img src="image/austin-distel-EMPZ7yRZoGw-unsplash.jpg" alt="market analysis"
-                            class="w-full object-cover rounded-lg overflow-hidden">
-                        <div class="p-2">
-                            <h3 class="text-white text-lg my-2">Real-Time Market Analysis</h3>
-                            <p class="text-sm font-normal text-slate-300">Stay updated with real-time market analysis
-                                and
-                                comprehensive reports. Access detailed
-                                charts, historical data, and market sentiment indicators to make well-informed
-                                decisions.
-                            </p>
+                        <div class="my-3 bg-slate-900 rounded-lg overflow-hidden w-[400px] md:mx-1">
+                            <img src="image/austin-distel-EMPZ7yRZoGw-unsplash.jpg" alt="market analysis"
+                                class="w-full object-cover rounded-lg overflow-hidden">
+                            <div class="p-2">
+                                <h3 class="text-white text-lg my-2">Real-Time Market Analysis</h3>
+                                <p class="text-sm font-normal text-slate-300">Stay updated with real-time market
+                                    analysis
+                                    and
+                                    comprehensive reports. Access detailed
+                                    charts, historical data, and market sentiment indicators to make well-informed
+                                    decisions.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- Subscribtion prices -->
-                <div>
-                    <div class="bg-darkblue rounded-lg p-4 text-white border border-blue-400 my-2">
-                        <div class="flex justify-between items-center font-light">
-                            <p>Basic</p>
-                            <p class="px-3  bg-blue-400 rounded-2xl">Free</p>
-                        </div>
-                        <p class="my-2"><span class="font-bold text-3xl">$0</span><sup class="text-lg">/month</sup></p>
-
-                        <button class="py-2 px-1 my-2 rounded-2xl w-full bg-slate-700 text-center font-bold text-lg">Get
-                            Started</button>
-                        <ul class="capitalize font-light text-sm">
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Unlimited trading</li>
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Advanced charting tools</li>
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Price alerts</li>
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Real-time market data</li>
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Community support</li>
-                        </ul>
+            </div>
+            <!-- Subscribtion prices -->
+            <div class="md:flex md:items-center md:justify-center">
+                <div class="bg-darkblue rounded-lg p-4 text-white border border-blue-400 my-2 md:mx-1 md:w-[400px]">
+                    <div class="flex justify-between items-center font-light">
+                        <p>Basic</p>
+                        <p class="px-3  bg-blue-400 rounded-2xl">Free</p>
                     </div>
-                    <div class="bg-darkblue rounded-lg p-4 text-white border border-blue-400 my-2">
-                        <div class="flex justify-between items-center font-light">
-                            <p>Pro</p>
-                            <p class="px-3 bg-blue-400 rounded-2xl">Most Popular</p>
-                        </div>
-                        <p class="my-2"><span class="font-bold text-3xl">$60</span><sup class="text-lg">/month</sup></p>
+                    <p class="my-2"><span class="font-bold text-3xl">$0</span><sup class="text-lg">/month</sup></p>
 
-                        <button
-                            class="py-2 px-1 my-2 rounded-2xl w-full bg-slate-700 text-center font-bold text-lg">Start
-                            Pro Trial</button>
-                        <ul class="capitalize font-light text-sm">
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i>Everything in Basic, plus:</li>
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Multi-Monitor support</li>
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Customizable Chart Layouts</li>
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Volume and Time-Based Alerts</li>
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i>Priority Support</li>
-                        </ul>
+                    <button class="py-2 px-1 my-2 rounded-2xl w-full bg-slate-700 text-center font-bold text-lg">Get
+                        Started</button>
+                    <ul class="capitalize font-light text-sm">
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Unlimited trading</li>
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Advanced charting tools</li>
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Price alerts</li>
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Real-time market data</li>
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Community support</li>
+                    </ul>
+                </div>
+                <div class="bg-darkblue rounded-lg p-4 text-white border border-blue-400 my-2 md:mx-1 md:w-[400px]">
+                    <div class="flex justify-between items-center font-light">
+                        <p>Pro</p>
+                        <p class="px-3 bg-blue-400 rounded-2xl">Most Popular</p>
                     </div>
-                    <div class="bg-darkblue rounded-lg p-4 text-white border border-blue-400 my-2">
-                        <div class="flex justify-between items-center font-light">
-                            <p>Enterprise</p>
-                            <p class="px-3  bg-blue-400 rounded-2xl">Custom</p>
-                        </div>
-                        <p class="my-2 text-3xl font-bold">Contact us</p>
+                    <p class="my-2"><span class="font-bold text-3xl">$60</span><sup class="text-lg">/month</sup></p>
 
-                        <button
-                            class="py-2 px-1 my-2 rounded-2xl w-full bg-slate-700 text-center font-bold text-lg">Contact
-                            Sales</button>
-                        <ul class="capitalize font-light text-sm">
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Everything in Pro, plus:</li>
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Dedicated Accound Manager</li>
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Custom Feature Development</li>
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> SLA & Uptime Guarantees</li>
-                            <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Premium Support Channels</li>
-                        </ul>
+                    <button class="py-2 px-1 my-2 rounded-2xl w-full bg-slate-700 text-center font-bold text-lg">Start
+                        Pro Trial</button>
+                    <ul class="capitalize font-light text-sm">
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i>Everything in Basic, plus:</li>
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Multi-Monitor support</li>
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Customizable Chart Layouts</li>
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Volume and Time-Based Alerts</li>
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i>Priority Support</li>
+                    </ul>
+                </div>
+                <div class="bg-darkblue rounded-lg p-4 text-white border border-blue-400 my-2 md:mx-1 md:w-[400px]">
+                    <div class="flex justify-between items-center font-light">
+                        <p>Enterprise</p>
+                        <p class="px-3  bg-blue-400 rounded-2xl">Custom</p>
                     </div>
+                    <p class="my-2 text-3xl font-bold">Contact us</p>
+
+                    <button class="py-2 px-1 my-2 rounded-2xl w-full bg-slate-700 text-center font-bold text-lg">Contact
+                        Sales</button>
+                    <ul class="capitalize font-light text-sm">
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Everything in Pro, plus:</li>
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Dedicated Accound Manager</li>
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Custom Feature Development</li>
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> SLA & Uptime Guarantees</li>
+                        <li class="py-1"><i class="fa-solid fa-check pr-2"></i> Premium Support Channels</li>
+                    </ul>
                 </div>
             </div>
         </section>
