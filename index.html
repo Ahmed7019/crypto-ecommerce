@@ -18,22 +18,27 @@
             <button id="open-btn" class="md:hidden">
                 <i class="fa-solid fa-bars text-3xl"></i>
             </button>
-            <ul class="bg-slate-200 text-black p-2 absolute right-0 top-0 z-10 w-[60%] md:relative md:flex md:opacity-100 md:translate-x-0 md:bg-transparent md:text-white md:justify-between md:w-fit"
+            <ul class="bgPrimary text-neutral-300 p-2 absolute right-0 top-8 z-10 w-full h-fit md:relative md:flex md:opacity-100 md:translate-x-0 md:bg-transparent md:text-white md:justify-between md:w-fit"
                 id="menu">
                 <li class="text-center relative md:hidden">
                     <button class="relative" id="close-btn">
-                        <i class="fa-solid fa-xmark text-lg"></i>
+                        <i class="fa-solid fa-xmark text-xl text-white"></i>
                     </button>
                 </li>
-                <li class="px-1 py-2 text-center"><a href="#">Home</a></li>
-                <li class="px-1 py-2 text-center"><a href="#">Features</a></li>
-                <li class="px-1 py-2 text-center"><a href="#">Products</a></li>
-                <li class="px-1 py-2 text-center"><a href="#">Pricing</a></li>
-                <li class="px-1 py-2 text-center"><a href="#">Blog</a></li>
-                <button class="px-2 py-2 mx-1 sm:mx-2 bg-blue-400 rounded-xl text-sm text-white"><a href="#">Sign
-                        in</a></button>
-                <button class="px-2 py-2 mx-1 sm:mx-2 bg-slate-700 rounded-xl text-sm text-white"><a href="#">Get
-                        Started</a></button>
+                <li class="px-1 py-2 text-center border-b"><a href="#">Home</a></li>
+                <li class="px-1 py-2 text-center border-b"><a href="#">Features</a></li>
+                <li class="px-1 py-2 text-center border-b"><a href="#">Products</a></li>
+                <li class="px-1 py-2 text-center border-b"><a href="#">Pricing</a></li>
+                <li class="px-1 py-2 mb-2 text-center border-b"><a href="#">Blog</a></li>
+                <div class="w-full flex flex-col justify-between items-center">
+
+                    <button class="w-[30%] sm:w-fit px-2 py-3 mx-1 my-1 sm:my-0 sm:mx-2  bg-blue-400 rounded-xl text-sm text-white "><a
+                            href="#">Sign
+                            in</a></button>
+                    <button class="w-[30%] sm:w-fit px-2 py-3 mx-1 my-1 sm:my-0 sm:mx-2  bg-slate-700 rounded-xl text-sm text-white "><a
+                            href="#">Get
+                            Started</a></button>
+                </div>
             </ul>
         </nav>
         <hr class="my-2">
