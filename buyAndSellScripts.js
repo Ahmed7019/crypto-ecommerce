@@ -17,26 +17,17 @@ class SignalCard {
   constructor(signal) {
     this.signal = signal;
   }
-
-  setImage() {
-    if (signal.toLowerCase() === "buy") {
-      let signalImage = document.querySelector("#signal-image");
-      signalImage.setAttribute(
-        "src",
-        "https://images.unsplash.com/photo-1634542984003-e0fb8e200e91?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dXB3YXJkJTIwdHJlbmR8ZW58MHx8MHx8fDA%3D"
-      );
-    } else {
-      signalImage.setAttribute(
-        "src",
-        "https://images.unsplash.com/photo-1635236198091-33d5aa8466cc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZG93biUyMHRyZW5kfGVufDB8fDB8fHww"
-      );
-    }
-  }
 }
 
-// let card = document.querySelectorAll("#card");
+// Create pop up function
 
-// card.forEach((card) => {
-//   // if(card.nextSibling.nextSibling)
-//     let buySignalForThisCard = document.get
-// });
+let cardPurchase = () => {
+  let card = document.querySelectorAll("#coin-card");
+  card.forEach((card) => {
+    card.addEventListener("click", () => {
+      // Here add a popup providing a card to the user to buy the signal
+    });
+  });
+};
+
+cardPurchase();
