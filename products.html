@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Ecommerce</title>
+    <link rel="stylesheet" href="src/input.css">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="bgPrimary font-poppins">
+
+    <header class="m-6 overflow-hidden md:m-12">
+        <nav class="flex justify-between text-white items-center relative">
+            <a href="#" class="text-2xl font-bold">CryptoTrade</a>
+            <button id="open-btn" class="md:hidden">
+                <i class="fa-solid fa-bars text-3xl"></i>
+            </button>
+            <ul class="bgPrimary text-neutral-300 p-2 absolute right-0 top-0 z-10 w-full h-fit md:relative md:flex md:opacity-100 md:translate-x-0 md:bg-transparent md:text-white md:justify-between md:w-fit"
+                id="menu">
+                <li class="text-center relative md:hidden">
+                    <button class="relative" id="close-btn">
+                        <i class="fa-solid fa-xmark text-xl text-white"></i>
+                    </button>
+                </li>
+                <li class="px-1 py-2 text-center border-b"><a href="#">Home</a></li>
+                <li class="px-1 py-2 text-center border-b"><a href="#">Features</a></li>
+                <li class="px-1 py-2 text-center border-b"><a href="#">Products</a></li>
+                <li class="px-1 py-2 text-center border-b"><a href="#">Pricing</a></li>
+                <li class="px-1 py-2 mb-2 text-center border-b"><a href="#">Blog</a></li>
+                <div class="w-full flex flex-col justify-between items-center">
+
+                    <button
+                        class="w-[30%] sm:w-fit px-2 py-3 mx-1 my-1 sm:my-0 sm:mx-2  bg-blue-400 rounded-xl text-sm text-white "><a
+                            href="#">Sign
+                            in</a></button>
+                    <button
+                        class="w-[30%] sm:w-fit px-2 py-3 mx-1 my-1 sm:my-0 sm:mx-2  bg-slate-700 rounded-xl text-sm text-white "><a
+                            href="#">Get
+                            Started</a></button>
+                </div>
+            </ul>
+        </nav>
+        <hr class="my-2">
+
+        <section class="md:w-full md:relative md:flex md:justify-center md:items-center ">
+            <div class="relative rounded-lg overflow-hidden mx-auto">
+                <img src="image/bitcoins.jpg" alt="crypto trade" class="md:w-[700px] w-full">
+                <div class="text-white absolute bottom-2 left-2 ">
+                    <h1 class="text-xl font-bold">CryptoTradePro: Empowering Your Cryptocurrency Trading Success</h1>
+                    <p class="text-xs text-neutral-100">Your one-stop destination for high-quality trading products
+                        designed to enhance
+                        your
+                        cryptocurrency trading experience.</p>
+                    <div class="m-2">
+                        <button class="px-2 py-2 mx-1 bg-blue-400 rounded-xl text-sm"><a href="#">$60/month</a></button>
+                        <button class="px-2 py-2 mx-1 bg-slate-700 rounded-xl text-sm"><a
+                                href="#">$40/month</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+</body>
+
+</html>
