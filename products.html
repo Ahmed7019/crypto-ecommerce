@@ -11,7 +11,7 @@
 </head>
 
 <body class="bgPrimary font-poppins">
-
+    <!-- Header Here ! -->
     <header class="m-6 overflow-hidden md:m-12">
         <nav class="flex justify-between text-white items-center relative">
             <a href="#" class="text-2xl font-bold">CryptoTrade</a>
@@ -25,7 +25,7 @@
                         <i class="fa-solid fa-xmark text-xl text-white"></i>
                     </button>
                 </li>
-                <li class="px-1 py-2 text-center border-b"><a href="#">Home</a></li>
+                <li class="px-1 py-2 text-center border-b"><a href="index.html">Home</a></li>
                 <li class="px-1 py-2 text-center border-b"><a href="#">Features</a></li>
                 <li class="px-1 py-2 text-center border-b"><a href="#">Products</a></li>
                 <li class="px-1 py-2 text-center border-b"><a href="#">Pricing</a></li>
@@ -45,24 +45,67 @@
         </nav>
         <hr class="my-2">
 
-        <section class="md:w-full md:relative md:flex md:justify-center md:items-center ">
-            <div class="relative rounded-lg overflow-hidden mx-auto">
-                <img src="image/bitcoins.jpg" alt="crypto trade" class="md:w-[700px] w-full">
-                <div class="text-white absolute bottom-2 left-2 ">
-                    <h1 class="text-xl font-bold">CryptoTradePro: Empowering Your Cryptocurrency Trading Success</h1>
-                    <p class="text-xs text-neutral-100">Your one-stop destination for high-quality trading products
-                        designed to enhance
-                        your
-                        cryptocurrency trading experience.</p>
-                    <div class="m-2">
-                        <button class="px-2 py-2 mx-1 bg-blue-400 rounded-xl text-sm"><a href="#">$60/month</a></button>
-                        <button class="px-2 py-2 mx-1 bg-slate-700 rounded-xl text-sm"><a
-                                href="#">$40/month</a></button>
+    </header>
+
+    <main class="mx-6">
+        <div class="my-4">
+            <h1 class="font-bold text-3xl text-neutral-200">Tranding signals</h1>
+        </div>
+        <section class="my-4">
+
+            <div
+                class="bg-gradient-to-tr from-slate-500/50 via-neutral-200/50 to-neutral-100/50 w-full rounded-md p-4 text-neutral-300">
+                <div class="px-2 w-full h-full text-center grid grid-cols-4">
+                    <div class="text-zinc-900 py-3 font-bold col-span-4 grid grid-cols-4 ">
+                        <a>Coin</a>
+                        <a>Price</a>
+                        <a>ID</a>
+                        <a>Signal</a>
+                    </div>
+                    <div
+                        class="text-center text-sm py-4 hover:cursor-pointer hover-bg-neutral-100/50 col-span-4 grid grid-cols-4 border-b border-solid border-black hover:bg-neutral-300/50 rounded-sm">
+                        <a class="font-bold" title="Bitcoin">BTC</a>
+                        <a class="font-bold text-red-600">$25.99</a>
+                        <a>23432252</a>
+                        <a id="buy">buy</a>
+                    </div>
+                    <div
+                        class="text-center text-sm py-4 hover:cursor-pointer hover-bg-neutral-100/50 col-span-4 grid grid-cols-4 border-b border-solid border-black hover:bg-neutral-300/50">
+                        <a class="font-bold" title="Ethereum">ETH</span></a>
+                        <a class="font-bold text-red-600">$25.99</a>
+                        <a>23432252</a>
+                        <a id="sell">sell</a>
+                    </div>
+                    <div
+                        class="text-center text-sm py-4 hover:cursor-pointer hover-bg-neutral-100/50 col-span-4 grid grid-cols-4 border-b border-solid border-black hover:bg-neutral-300/50">
+                        <a class="font-bold" title="Ripple">XRP</a>
+                        <a class="font-bold text-red-600">$25.99</a>
+                        <a>23432252</a>
+                        <a id="buy">buy</a>
+                    </div>
+                    <div
+                        class="text-center text-sm py-4 hover:cursor-pointer hover-bg-neutral-100/50 col-span-4 grid grid-cols-4 border-b border-solid border-black hover:bg-neutral-300/50">
+                        <a class="font-bold" title="Meme coin"> MMC</a>
+                        <a class="font-bold text-red-600">$25.99</a>
+                        <a>23432252</a>
+                        <a id="sell">sell</a>
+                    </div>
+                    <div
+                        class="text-center text-sm py-4 hover:cursor-pointer hover-bg-neutral-100/50 col-span-4 grid grid-cols-4  hover:bg-neutral-300/50">
+                        <a class="font-bold" title="Bitcoin">BTC</a>
+                        <a class="font-bold text-red-600">$25.99</a>
+                        <a>23432252</a>
+                        <a id="buy">buy</a>
                     </div>
                 </div>
             </div>
         </section>
-    </header>
+
+    </main>
+
+
+    <script src="buyAndSellScripts.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

@@ -14,6 +14,6 @@ closeBtn.addEventListener("click", () => {
   menu.style.setProperty("transition", "all 1s");
 });
 
-menuBtn.addEventListener("blur", () => {
-  menu.style.setProperty("display", "none");
-});
+// menuBtn.addEventListener("blur", () => {
+//   menu.style.setProperty("display", "none");
+// });
